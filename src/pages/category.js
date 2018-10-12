@@ -40,6 +40,8 @@ const CategoryPage = props => {
   for (var key in categories) {
     categoryList.push([key, categories[key]]);
   }
+  
+  categoryList.sort();
 
   return (
     <React.Fragment>
